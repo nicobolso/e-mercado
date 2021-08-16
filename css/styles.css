@@ -139,3 +139,7 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+.titulo{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
