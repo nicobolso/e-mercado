@@ -2,6 +2,7 @@
 //que el documento se encuentra cargado, es decir, se encuentran todos los
 //elementos HTML presentes.
 document.addEventListener("DOMContentLoaded",  function (e) {
+   document.getElementById("lista");
     var products = [];
     function mostrarProductos(array){
     var lista = "<br>"
@@ -19,7 +20,7 @@ document.addEventListener("DOMContentLoaded",  function (e) {
     `
     
     }
-    document.getElementById("lista").innerHTML = contenido;
+    products = contenido;
 }
 document.addEventListener("DOMContentLoaded",  function (e) {
     getJSONData(PRODUCTS_URL).then(function (result){
